@@ -1,0 +1,20 @@
+kw-bench
+========
+
+Seed master data (employee names, product and profit-center texts, business-partner names and list prices) in
+forensic/gen/seed/ (copied into each built task) is taken from SAP-samples/datasphere-content (https://github.com/SAP-samples/datasphere-content),
+commit 695af09278d8a57d0fb0a441f247060eaea5daf5:
+
+  SAP_Sample_Content/CSV/HR/EmployeePersonalData.csv
+  SAP_Sample_Content/CSV/FI/ProfitCenterTexts.csv
+  Sample_Bikes_Sales_content/CSV/Products.csv
+  Sample_Bikes_Sales_content/CSV/ProductTexts.csv
+  Sample_Bikes_Sales_content/CSV/BusinessPartners.csv
+
+Copyright (c) 2023 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0
+(forensic/gen/seed/LICENSE-Apache-2.0.txt). The files are unmodified; the generator only samples names, texts and
+prices from them. All transactions, companies, vendors, bank accounts and people in the generated extract are
+synthetic. "SAP" and "S/4HANA" are trademarks of SAP SE; this project is not affiliated with or endorsed by SAP.
+
+The task images copy DejaVu Sans (fonts-dejavu-core, Bitstream Vera / DejaVu license, redistribution permitted)
+into /app/docs/brand/fonts at build time.

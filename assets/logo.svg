@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 240" width="512" height="240" role="img" aria-label="kw-bench">
+  <title>kw-bench</title>
+  <!-- mid-tone palette: readable on light and dark backgrounds, transparent canvas -->
+  <g fill="#7b8794">
+    <rect x="150" y="24" width="212" height="16" rx="4"/>
+    <rect x="150" y="52" width="212" height="16" rx="4"/>
+    <rect x="150" y="80" width="212" height="16" rx="4"/>
+    <rect x="150" y="108" width="212" height="16" rx="4"/>
+    <rect x="150" y="136" width="212" height="16" rx="4" opacity="0.55"/>
+  </g>
+  <rect x="150" y="80" width="212" height="16" rx="4" fill="#14a38b"/>
+  <circle cx="300" cy="88" r="46" fill="#14a38b" fill-opacity="0.12" stroke="#14a38b" stroke-width="9"/>
+  <line x1="333" y1="121" x2="370" y2="158" stroke="#14a38b" stroke-width="12" stroke-linecap="round"/>
+  <text x="256" y="215" text-anchor="middle" font-family="SF Mono, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="52" font-weight="700" fill="#7b8794">kw-bench</text>
+</svg>

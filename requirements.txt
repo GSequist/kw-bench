@@ -1,0 +1,7 @@
+harbor==0.24.0
+numpy==2.5.4
+pandas==3.0.6
+pyarrow==26.0.0
+reportlab==5.0.1
+openpyxl==3.1.5
+pypdf==6.21.1

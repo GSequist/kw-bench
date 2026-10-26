@@ -1,0 +1,13 @@
+# Codex settings for DeepSeek v4.1 Flash via OpenRouter.
+# Unknown slugs fall back to a 272k window, so the model is declared in a catalog (1M window),
+# and OpenRouter is a custom provider with remote (OpenAI-only) compaction turned off.
+model_provider = "openrouter"
+model_catalog_json = "/tmp/codex-models/codex_models_deepseek.json"
+model_auto_compact_token_limit = 900000
+
+[model_providers.openrouter]
+name = "OpenRouter"
+base_url = "https://openrouter.ai/api/v1"
+env_key = "OPENAI_API_KEY"
+wire_api = "responses"
+capabilities = { remote_compaction = "unsupported" }

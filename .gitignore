@@ -1,0 +1,27 @@
+# environments and secrets
+env/
+.env
+*.env
+.venv/
+
+# python / OS
+__pycache__/
+*.pyc
+.DS_Store
+
+# local run outputs and working data
+jobs/
+results/
+inspect/
+
+# private working notes
+ARTICLE_DRAFT.txt
+ARTICLE_REFS.txt
+
+# viz renders and traces
+viz/out/
+viz/traces/
+
+# run-result screenshots (kept locally)
+article/screens/results_microcc/
+article/screens_results.py
